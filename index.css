@@ -9,13 +9,14 @@ body {
   color: #444;
 }
 
-.grid {
+.wrapper {
   
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  width: 100%;
-  
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
 }
+
+.grid-float img { float: left; }
 
 
 .box {
